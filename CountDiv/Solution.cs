@@ -8,6 +8,7 @@ public class SolutionClass
         if(A == 0){
             b++;
         }
+        
         return b - a;
     }
 }

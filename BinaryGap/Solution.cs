@@ -3,6 +3,7 @@
 public class SolutionClass
 {
     public string Binary { get; set; }
+    
     public int Solution(int N)
     {
         Binary = Convert.ToString(N, 2);
@@ -25,6 +26,7 @@ public class SolutionClass
                 n++;
             }
         }
+        
         return res;
     }
 }

@@ -17,6 +17,7 @@ public class SolutionClass
                 temp.Remove(A[i]);
             }
         }
+        
         return temp.ElementAt(0);
     }
 }

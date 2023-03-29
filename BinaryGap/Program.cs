@@ -3,6 +3,7 @@
 public static class BinaryGapClass
 {
     private static SolutionClass _sol = new SolutionClass();
+    
     public static void Main(String[] args)
     {
         int value = 100000;
