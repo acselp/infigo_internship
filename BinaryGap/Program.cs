@@ -2,16 +2,12 @@
 
 public static class BinaryGapClass
 {
-    private static SolutionClass s_sol = new SolutionClass();
+    private static SolutionClass _sol = new SolutionClass();
     public static void Main(String[] args)
     {
-        int _value = 100000;
+        int value = 100000;
         
-        Console.WriteLine(Convert.ToString(_value, 2));
-        Console.WriteLine(s_sol.Solution(_value));
+        Console.WriteLine(Convert.ToString(value, 2));
+        Console.WriteLine(_sol.Solution(value));
     }
 }
-
-
-
-

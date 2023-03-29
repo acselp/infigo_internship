@@ -7,24 +7,24 @@ public class SolutionClass
     {
         Binary = Convert.ToString(N, 2);
 
-        int _res = 0;
-        int _n = 0;
+        int res = 0;
+        int n = 0;
 
         for (int i = 0; i < Binary.Length; i++)
         {
             if (Binary[i] == '1' )
             {
-                if (_n > _res)
+                if (n > res)
                 {
-                    _res = _n;
+                    res = n;
                 }
-                _n = 0;
+                n = 0;
             }
             else if(Binary[i] == '0')
             {
-                _n++;
+                n++;
             }
         }
-        return _res;
+        return res;
     }
 }

@@ -4,19 +4,19 @@ public class SolutionClass
 {
     public int Solution(int[] A)
     {
-        int _s = 0;
-        int _s2 = 0;
-        int _i;
+        int s = 0;
+        int s2 = 0;
+        int i;
 
-        for (_i = 0; _i < A.Length; _i++)
+        for (i = 0; i < A.Length; i++)
         {
-            _s += A[_i];
-            _s2 += _i + 1;
+            s += A[i];
+            s2 += i + 1;
         }
 
-        _i++;
-        _s2 += _i;
+        i++;
+        s2 += i;
 
-        return _s2 - _s;
+        return s2 - s;
     }
 }

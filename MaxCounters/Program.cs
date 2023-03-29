@@ -2,17 +2,17 @@
 
 public static class MaxCountersClass
 {
-    private static SolutionClass s_sol = new SolutionClass();
-    private static int[] s_arr = { 3, 4, 4, 6, 1, 4, 4 };
-    private static int s_n = 5;
+    private static SolutionClass _sol = new SolutionClass();
+    private static int[] _arr = { 3, 4, 4, 6, 1, 4, 4 };
+    private static int _n = 5;
     
     public static void Main(String[] args)
     {
-        int[] _a = s_sol.Solution(s_n, s_arr);
+        int[] a = _sol.Solution(_n, _arr);
         
-        for (int i = 0; i < s_n; i++)
+        for (int i = 0; i < _n; i++)
         {
-            Console.Write(" " + _a[i]);
+            Console.Write(" " + a[i]);
         }
     }
 }

@@ -4,27 +4,27 @@ public class SolutionClass
 {
     public int Solution(int[] A)
     {
-        int[] _temp = new int[A.Length];
-        int _min_int = Int32.MaxValue;
+        int[] temp = new int[A.Length];
+        int min_int = Int32.MaxValue;
         
         for (int i = 0; i < A.Length; i++)
         {
-            _temp[i] = i + 1;
+            temp[i] = i + 1;
         }
 
         for (int i = 0; i < A.Length; i++)
         {
-            if (!A.Contains(_temp[i]) && _min_int > (i + 1))
+            if (!A.Contains(temp[i]) && min_int > (i + 1))
             {
-                _min_int = i + 1;
+                min_int = i + 1;
             }
         }
 
-        if (_min_int == Int32.MaxValue)
+        if (min_int == Int32.MaxValue)
         {
-            _min_int = A.Length + 1;
+            min_int = A.Length + 1;
         }
 
-        return _min_int;
+        return min_int;
     }
 }

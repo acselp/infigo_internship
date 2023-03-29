@@ -2,21 +2,18 @@
 
 public static class CyclicRotationClass
 {
-    private static int[] s_arr = { 3, 8, 9, 7, 6 };
-    private static SolutionClass s_sol = new SolutionClass();
+    private static int[] _arr = { 3, 8, 9, 7, 6 };
+    private static SolutionClass _sol = new SolutionClass();
 
     public static void Main(String[] args)
     {
-        int _k = 3;
-        int[] _l = s_sol.Solution(s_arr, _k);
+        int k = 3;
+        
+        int[] l = _sol.Solution(_arr, k);
 
-        for (int i = 0; i < _l.Length; i++)
+        for (int i = 0; i < l.Length; i++)
         {
-            Console.Write(_l[i] + " ");
+            Console.Write(l[i] + " ");
         }
     }
 }
-
-
-
-

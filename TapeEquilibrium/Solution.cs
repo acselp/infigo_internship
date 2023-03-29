@@ -4,10 +4,10 @@ public class SolutionClass
 {
     public int Solution(int[] A)
     {
-        int[] _temp = new int[A.Length];
-        int _sum = Int32.MaxValue;
+        int[] temp = new int[A.Length];
+        int sum = Int32.MaxValue;
 
-        _temp[0] = A[0];
+        temp[0] = A[0];
 
         if (A.Length == 2)
         {
@@ -16,17 +16,17 @@ public class SolutionClass
         
         for (int i = 1; i < A.Length; i++)
         {
-            _temp[i] = A[i] + _temp[i - 1];
+            temp[i] = A[i] + temp[i - 1];
         }
 
-        for (int i = 0; i < _temp.Length; i++)
+        for (int i = 0; i < temp.Length; i++)
         {
-            if (Math.Abs(_temp[i] - (_temp[_temp.Length - 1] - _temp[i])) < _sum)
+            if (Math.Abs(temp[i] - (temp[temp.Length - 1] - temp[i])) < sum)
             {
-                _sum = Math.Abs(_temp[i] - (_temp[_temp.Length - 1] - _temp[i]));
+                sum = Math.Abs(temp[i] - (temp[temp.Length - 1] - temp[i]));
             }
         }
         
-        return _sum;
+        return sum;
     }
 }
