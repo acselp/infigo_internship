@@ -1,30 +1,30 @@
 ﻿namespace MissingIntegers;
 
-public class Solution
+public class SolutionClass
 {
-    public int solution(int[] A)
+    public int Solution(int[] A)
     {
-        int[] temp = new int[A.Length];
-        int min_int = Int32.MaxValue;
+        int[] _temp = new int[A.Length];
+        int _min_int = Int32.MaxValue;
         
         for (int i = 0; i < A.Length; i++)
         {
-            temp[i] = i + 1;
+            _temp[i] = i + 1;
         }
 
         for (int i = 0; i < A.Length; i++)
         {
-            if (!A.Contains(temp[i]) && min_int > (i + 1))
+            if (!A.Contains(_temp[i]) && _min_int > (i + 1))
             {
-                min_int = i + 1;
+                _min_int = i + 1;
             }
         }
 
-        if (min_int == Int32.MaxValue)
+        if (_min_int == Int32.MaxValue)
         {
-            min_int = A.Length + 1;
+            _min_int = A.Length + 1;
         }
 
-        return min_int;
+        return _min_int;
     }
 }

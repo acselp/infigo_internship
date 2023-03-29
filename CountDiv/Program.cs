@@ -2,10 +2,10 @@
 
 public static class CountDivClass
 {
-    private static SolutionClass _sol = new SolutionClass();
+    private static SolutionClass s_sol = new SolutionClass();
     
     public static void Main(String[] args)
     {
-        Console.WriteLine(_sol.Solution(6, 11, 2));
+        Console.WriteLine(s_sol.Solution(6, 11, 2));
     }
 }

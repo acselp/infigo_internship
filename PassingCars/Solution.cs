@@ -1,8 +1,8 @@
 ﻿namespace PassingCars;
 
-public class Solution
+public class SolutionClass
 {
-    public int solution(int[] A)
+    public int Solution(int[] A)
     {
         for (int i = 0; i < A.Length; i++)
         {

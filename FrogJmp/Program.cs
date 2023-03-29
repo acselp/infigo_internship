@@ -1,11 +1,10 @@
-﻿namespace Lesson3;
+﻿namespace FrogJmp;
 
-public static class Day1
+public static class FrogJmpClass 
 {
-
-    public static Solution s = new Solution();
+    public static SolutionClass s_sol = new SolutionClass();
     public static void Main(String[] args)
     {
-        Console.WriteLine(s.solution(10, 90, 30));
+        Console.WriteLine(s_sol.Solution(10, 90, 30));
     }
 }

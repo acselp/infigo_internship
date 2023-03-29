@@ -12,7 +12,6 @@ public class SolutionClass
 
         for (int i = 0; i < Binary.Length; i++)
         {
-            
             if (Binary[i] == '1' )
             {
                 if (_n > _res)

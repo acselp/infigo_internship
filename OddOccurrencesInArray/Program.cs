@@ -1,14 +1,13 @@
 ﻿namespace OddOccurrencesInArray;
 
-public static class Day1
+public static class OddOccurrencesInArray
 {
-    private static int[] Arr = { 9, 3, 9, 3, 9, 7, 9 };
-    private static Solution s = new Solution();
+    private static int[] s_arr = { 9, 3, 9, 3, 9, 7, 9 };
+    private static SolutionClass s_sol = new SolutionClass();
 
     public static void Main(String[] args)
     {
-        int l = s.solution(Arr);
-        
-        Console.WriteLine(l);
+        int _l = s_sol.Solution(s_arr);
+        Console.WriteLine(_l);
     }
 }

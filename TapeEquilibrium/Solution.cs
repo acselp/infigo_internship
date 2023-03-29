@@ -1,13 +1,13 @@
 ﻿namespace PermMissingElem;
 
-public class Solution
+public class SolutionClass
 {
-    public int solution(int[] A)
+    public int Solution(int[] A)
     {
-        int[] temp = new int[A.Length];
-        int sum = Int32.MaxValue;
+        int[] _temp = new int[A.Length];
+        int _sum = Int32.MaxValue;
 
-        temp[0] = A[0];
+        _temp[0] = A[0];
 
         if (A.Length == 2)
         {
@@ -16,17 +16,17 @@ public class Solution
         
         for (int i = 1; i < A.Length; i++)
         {
-            temp[i] = A[i] + temp[i - 1];
+            _temp[i] = A[i] + _temp[i - 1];
         }
 
-        for (int i = 0; i < temp.Length; i++)
+        for (int i = 0; i < _temp.Length; i++)
         {
-            if (Math.Abs(temp[i] - (temp[temp.Length - 1] - temp[i])) < sum)
+            if (Math.Abs(_temp[i] - (_temp[_temp.Length - 1] - _temp[i])) < _sum)
             {
-                sum = Math.Abs(temp[i] - (temp[temp.Length - 1] - temp[i]));
+                _sum = Math.Abs(_temp[i] - (_temp[_temp.Length - 1] - _temp[i]));
             }
         }
         
-        return sum;
+        return _sum;
     }
 }

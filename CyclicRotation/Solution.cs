@@ -1,8 +1,8 @@
 ﻿namespace CyclicRotation;
 
-public class Solution
+public class SolutionClass
 {
-    public int[] solution(int[] A, int K)
+    public int[] Solution(int[] A, int K)
     {
         for (int j = 0; j < K; j++)
         {

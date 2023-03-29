@@ -2,20 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class Solution
+public class SolutionClass
 {
-    public int solution(int X, int[] A)
+    public int Solution(int X, int[] A)
     {
         HashSet<int> temp = new HashSet<int>();
 
-        int i;
-        
-        for (i = 0; i < X; i++)
+        for (int i = 0; i < X; i++)
         {
             temp.Add(i + 1);
         }
 
-        for (i = 0; i < A.Length; i++)
+        for (int i = 0; i < A.Length; i++)
         {
             if (temp.Contains(A[i]))
             {
@@ -27,7 +25,7 @@ public class Solution
                 return i;
             }
         }
-
+        
         return -1;
     }
 }

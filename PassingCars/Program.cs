@@ -1,8 +1,8 @@
 ﻿namespace PassingCars;
 
-public static class Main
+public static class PassingCarsClass
 {
-    public static void main(String[] args)
+    public static void Main(String[] args)
     {
         
     }

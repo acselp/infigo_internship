@@ -1,14 +1,12 @@
 ﻿namespace PermMissingElem;
 
-public static class Day1
+public static class PermMissingElemClass
 {
-
-    public static Solution s = new Solution();
-    public static int[] A = { 3, 1, 2, 4, 3 };
+    private static SolutionClass s_sol = new SolutionClass();
+    private static int[] s_arr = { 3, 1, 2, 4, 3 };
     
     public static void Main(String[] args)
     {
-        Console.WriteLine(s.solution(A));
-        
+        Console.WriteLine(s_sol.Solution(s_arr));
     }
 }

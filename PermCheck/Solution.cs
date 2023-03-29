@@ -1,21 +1,21 @@
 ﻿namespace PermCheck;
 
-public class Solution
+public class SolutionClass
 {
-    public int solution(int[] A)
+    public int Solution(int[] A)
     {
-        int[] temp = new int[A.Length];
+        int[] _temp = new int[A.Length];
 
         for (int i = 0; i < A.Length; i++)
         {
-            temp[i] = 0;
+            _temp[i] = 0;
         }
 
         try
         {
             for (int i = 0; i < A.Length; i++)
             {
-                temp[A[i] - 1] = A[i];
+                _temp[A[i] - 1] = A[i];
             }
         }
         catch (IndexOutOfRangeException)
@@ -23,14 +23,11 @@ public class Solution
             return 0;
         }
         
-
-        if (temp.Contains(0))
+        if (_temp.Contains(0))
         {
             return 0;
         }
-        else
-        {
-            return 1;
-        }
+
+        return 1;
     }
 }

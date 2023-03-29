@@ -1,22 +1,22 @@
 ﻿namespace PermMissingElem;
 
-public class Solution
+public class SolutionClass
 {
-    public int solution(int[] A)
+    public int Solution(int[] A)
     {
-        int s = 0;
-        int s2 = 0;
-        int i;
+        int _s = 0;
+        int _s2 = 0;
+        int _i;
 
-        for (i = 0; i < A.Length; i++)
+        for (_i = 0; _i < A.Length; _i++)
         {
-            s += A[i];
-            s2 += i + 1;
+            _s += A[_i];
+            _s2 += _i + 1;
         }
 
-        i++;
-        s2 += i;
+        _i++;
+        _s2 += _i;
 
-        return s2 - s;
+        return _s2 - _s;
     }
 }

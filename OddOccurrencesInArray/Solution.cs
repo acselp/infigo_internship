@@ -1,26 +1,22 @@
-﻿
-namespace OddOccurrencesInArray;
-using System.Collections.Generic;
-using System.Linq;
+﻿namespace OddOccurrencesInArray;
 
-
-public class Solution
+public class SolutionClass
 {
-    public int solution(int[] A)
+    public int Solution(int[] A)
     {
-        HashSet<int> temp = new HashSet<int>();
+        HashSet<int> _temp = new HashSet<int>();
 
         for (int i = 0; i < A.Length; i++)
         {
-            if (!temp.Contains(A[i]))
+            if (!_temp.Contains(A[i]))
             {
-                temp.Add(A[i]);
+                _temp.Add(A[i]);
             }
             else
             {
-                temp.Remove(A[i]);
+                _temp.Remove(A[i]);
             }
         }
-        return temp.ElementAt(0);
+        return _temp.ElementAt(0);
     }
 }

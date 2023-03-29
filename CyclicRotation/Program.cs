@@ -1,18 +1,18 @@
 ﻿namespace CyclicRotation;
 
-public static class Day1
+public static class CyclicRotationClass
 {
-    private static int[] Arr = { 3, 8, 9, 7, 6 };
-    private static Solution s = new Solution();
+    private static int[] s_arr = { 3, 8, 9, 7, 6 };
+    private static SolutionClass s_sol = new SolutionClass();
 
     public static void Main(String[] args)
     {
-        int k = 3;
-        int[] l = s.solution(Arr, k);
+        int _k = 3;
+        int[] _l = s_sol.Solution(s_arr, _k);
 
-        for (int i = 0; i < l.Length; i++)
+        for (int i = 0; i < _l.Length; i++)
         {
-            Console.Write(l[i] + " ");
+            Console.Write(_l[i] + " ");
         }
     }
 }

@@ -1,14 +1,12 @@
 ﻿namespace FrogRiver;
 
-public static class Day1
+public static class FrogRiverClass
 {
-
-    public static Solution s = new Solution();
-    public static int[] A = { 1, 3, 1, 4, 2, 3, 5, 4 };
+    private static SolutionClass s_sol = new SolutionClass();
+    private static int[] s_arr = { 1, 3, 1, 4, 2, 3, 5, 4 };
     
     public static void Main(String[] args)
     {
-        Console.WriteLine(s.solution(5, A));
-        
+        Console.WriteLine(s_sol.Solution(5, s_arr));
     }
 }
