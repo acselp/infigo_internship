@@ -3,7 +3,7 @@
 // Counts the number of distinct elements in a array
 public class SolutionDistinct
 {
-    public int Solution(int[] A)
+    public int Solution(int[] a)
     {
         var temp = new HashSet<int>();
         var nrDistinct = 0;
