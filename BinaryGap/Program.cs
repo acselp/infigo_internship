@@ -2,17 +2,15 @@
 
 namespace BinaryGap;
 
-public static class Day1
+public static class BinaryGapClass
 {
-
-    private static Solution s = new Solution();
-
+    private static SolutionClass _sol = new SolutionClass();
     public static void Main(String[] args)
     {
-        int value = 100000;
+        int _value = 100000;
         
-        Console.WriteLine(Convert.ToString(value, 2));
-        Console.WriteLine(s.solution(value));
+        Console.WriteLine(Convert.ToString(_value, 2));
+        Console.WriteLine(_sol.Solution(_value));
     }
 }
 

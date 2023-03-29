@@ -1,11 +1,11 @@
 ﻿namespace CountDiv;
 
-public static class MainClass
+public static class CountDivClass
 {
-    public static Solution s = new Solution();
+    private static SolutionClass _sol = new SolutionClass();
     
     public static void Main(String[] args)
     {
-        Console.WriteLine(s.solution(6, 11, 2));
+        Console.WriteLine(_sol.Solution(6, 11, 2));
     }
 }
