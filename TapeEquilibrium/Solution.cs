@@ -4,8 +4,8 @@ public class SolutionClass
 {
     public int Solution(int[] A)
     {
-        int[] temp = new int[A.Length];
-        int sum = Int32.MaxValue;
+        var temp = new int[A.Length];
+        var sum = Int32.MaxValue;
 
         temp[0] = A[0];
 
@@ -14,12 +14,12 @@ public class SolutionClass
             return Math.Abs(A[0] - A[1]);
         }
         
-        for (int i = 1; i < A.Length; i++)
+        for (var i = 1; i < A.Length; i++)
         {
             temp[i] = A[i] + temp[i - 1];
         }
 
-        for (int i = 0; i < temp.Length; i++)
+        for (var i = 0; i < temp.Length; i++)
         {
             if (Math.Abs(temp[i] - (temp[temp.Length - 1] - temp[i])) < sum)
             {

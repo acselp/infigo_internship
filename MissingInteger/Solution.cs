@@ -4,15 +4,15 @@ public class SolutionClass
 {
     public int Solution(int[] A)
     {
-        int[] temp = new int[A.Length];
-        int min_int = Int32.MaxValue;
+        var temp = new int[A.Length];
+        var min_int = Int32.MaxValue;
         
-        for (int i = 0; i < A.Length; i++)
+        for (var i = 0; i < A.Length; i++)
         {
             temp[i] = i + 1;
         }
 
-        for (int i = 0; i < A.Length; i++)
+        for (var i = 0; i < A.Length; i++)
         {
             if (!A.Contains(temp[i]) && min_int > (i + 1))
             {

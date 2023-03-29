@@ -4,11 +4,11 @@ public class SolutionClass
 {
     public int[] Solution(int[] A, int K)
     {
-        for (int j = 0; j < K; j++)
+        for (var j = 0; j < K; j++)
         {
-            int last = A[A.Length - 1]; 
+            var last = A[A.Length - 1]; 
         
-            for (int i = A.Length - 1; i > 0; i--)
+            for (var i = A.Length - 1; i > 0; i--)
             {
                 A[i] = A[i - 1];
             }

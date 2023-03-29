@@ -7,11 +7,10 @@ public static class CyclicRotationClass
 
     public static void Main(String[] args)
     {
-        int k = 3;
-        
-        int[] l = _sol.Solution(_arr, k);
+        var k = 3;
+        var l = _sol.Solution(_arr, k);
 
-        for (int i = 0; i < l.Length; i++)
+        for (var i = 0; i < l.Length; i++)
         {
             Console.Write(l[i] + " ");
         }

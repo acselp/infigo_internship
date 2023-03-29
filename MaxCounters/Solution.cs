@@ -4,15 +4,15 @@ public class SolutionClass
 {
     public int[] Solution(int N, int[] A)
     {
-        int[] count = new int[N];
-        int max_count = 0;
+        var count = new int[N];
+        var max_count = 0;
         
-        for (int i = 0; i < N; i++)
+        for (var i = 0; i < N; i++)
         {
             count[i] = 0;
         }
 
-        for (int i = 0; i < A.Length; i++)
+        for (var i = 0; i < A.Length; i++)
         {
             if (A[i] > 0 && A[i] <= N)
             {
@@ -25,7 +25,7 @@ public class SolutionClass
             }
             else if (A[i] == N + 1)
             {
-                for (int j = 0; j < N; j++)
+                for (var j = 0; j < N; j++)
                 {
                     count[j] = max_count;
                 }

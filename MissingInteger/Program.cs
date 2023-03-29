@@ -7,7 +7,7 @@ public static class MissingIntegersClass
 
     public static void Main(String[] args)
     {
-        int a = _sol.Solution(_arr);
+        var a = _sol.Solution(_arr);
         
         Console.Write(a);
     }

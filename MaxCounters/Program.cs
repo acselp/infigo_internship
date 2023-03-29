@@ -8,9 +8,9 @@ public static class MaxCountersClass
     
     public static void Main(String[] args)
     {
-        int[] a = _sol.Solution(_n, _arr);
+        var a = _sol.Solution(_n, _arr);
         
-        for (int i = 0; i < _n; i++)
+        for (var i = 0; i < _n; i++)
         {
             Console.Write(" " + a[i]);
         }

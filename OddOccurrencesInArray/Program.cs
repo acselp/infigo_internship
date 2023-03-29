@@ -7,7 +7,7 @@ public static class OddOccurrencesInArray
 
     public static void Main(String[] args)
     {
-        int l = _sol.Solution(_arr);
+        var l = _sol.Solution(_arr);
         
         Console.WriteLine(l);
     }
