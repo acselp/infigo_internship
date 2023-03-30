@@ -1,14 +1,15 @@
 ﻿namespace MaxProductOfThree;
 
-public static class MaxProductOfThreeClass
+public static class MaxProductOfThree
 {
-    public static SolutionClass SolutionInstance = new();
-    public static int[] A = { -3, 1, 2, -2, 5, 6 };
+    public static MaxProductOfThreeSolution SolutionInstance = new();
+    public static int[] ArrayWithTheElements = { -3, 1, 2, -2, 5, 6 };
 
+    
     public static void Main(String[] args)
     {
-        var a = SolutionInstance.Solution(A);
+        var maxProductOfThreeElems = SolutionInstance.Solution(ArrayWithTheElements);
         
-        Console.Write(a);
+        Console.Write(maxProductOfThreeElems);
     }
 }

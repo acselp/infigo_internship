@@ -1,6 +1,6 @@
 ﻿namespace MaxProductOfThree;
 
-public class SolutionClass
+public class MaxProductOfThreeSolution
 {
     public int Solution(int[] a)
     {
