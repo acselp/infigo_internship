@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingCars", "PassingCars\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDiv", "CountDiv\CountDiv.csproj", "{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThree", "MaxProductOfThree\MaxProductOfThree.csproj", "{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
