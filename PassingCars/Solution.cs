@@ -1,18 +1,31 @@
 ﻿namespace PassingCars;
 
-public class SolutionClass
+public class PassingCarsSolution
 {
-    public int Solution(int[] A)
+    public int Solution(int[] a)
     {
-        for (var i = 0; i < A.Length; i++)
+        var n = a.Length;
+        var passedCars = 0;
+        var counter = 0;
+        const int maxPassedCars = 1000000000;
+        
+        for (int i = 0; i < n; i++)
         {
-            if (A[i] == 0)
+            if (a[i] == 0)
             {
-                for (var j = i; j < A.Length; j++)
-                {
-                    if(A[j] == )
-                }
+                counter++;
+            }
+            else
+            {
+                passedCars += counter;
             }
         }
+
+        if (passedCars > maxPassedCars || passedCars < 0)
+        {
+            return -1;
+        }
+        
+        return passedCars;
     }
 }
