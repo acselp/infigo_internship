@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingCars", "PassingCars\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDiv", "CountDiv\CountDiv.csproj", "{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomeRangeQuery", "GenomeRangeQuery\GenomeRangeQuery.csproj", "{54F6EE5C-80E8-47A3-8323-E51875C83EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BFE61B6-D2B3-4239-998A-7EC64E805BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F6EE5C-80E8-47A3-8323-E51875C83EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F6EE5C-80E8-47A3-8323-E51875C83EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F6EE5C-80E8-47A3-8323-E51875C83EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F6EE5C-80E8-47A3-8323-E51875C83EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
