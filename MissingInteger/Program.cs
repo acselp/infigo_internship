@@ -1,8 +1,8 @@
 ﻿namespace MissingIntegers;
 
-public static class MissingIntegersClass
+public static class MissingIntegersMain
 {
-    public static MissingIntegerSolutionClass Sol = new MissingIntegerSolutionClass();
+    public static MissingInteger Sol = new MissingInteger();
     //This array will be checked for missing elements (in this example the missing element is 5)
     public static int[] ArrayWithTheElements = { 1, 3, 6, 4, 1, 2 };
 

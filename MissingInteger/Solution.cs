@@ -1,6 +1,6 @@
 ﻿namespace MissingIntegers;
 
-public class MissingIntegerSolutionClass
+public class MissingInteger
 {
     public int MissingIntegerSolution(int[] arrayWithTheElements)
     {
