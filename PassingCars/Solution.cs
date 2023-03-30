@@ -1,6 +1,6 @@
 ﻿namespace PassingCars;
 
-public class PassingCarsSolutionClass
+public class PassingCarsSolution
 {
     public int Solution(int[] a)
     {
