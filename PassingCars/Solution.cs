@@ -20,7 +20,7 @@ public class SolutionClass
             }
         }
 
-        if (passedCars > 1000000000)
+        if (passedCars > 1000000000 || passedCars < 0)
         {
             return -1;
         }
