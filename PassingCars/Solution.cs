@@ -4,15 +4,23 @@ public class SolutionClass
 {
     public int Solution(int[] A)
     {
-        for (var i = 0; i < A.Length; i++)
+        var n = A.Length;
+        var passedCars = 0;
+        
+        for (int i = 0; i < n; i++)
         {
             if (A[i] == 0)
             {
-                for (var j = i; j < A.Length; j++)
+                for (int j = i; j < n; j++)
                 {
-                    if(A[j] == )
+                    if (A[j] == 1)
+                    {
+                        passedCars++;
+                    }
                 }
             }
         }
+
+        return passedCars;
     }
 }
