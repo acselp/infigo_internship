@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDiv", "CountDiv\CountD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThree", "MaxProductOfThree\MaxProductOfThree.csproj", "{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distinct.csproj", "{976DFAE3-628B-4644-9D85-B939353DF1AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C2DFDE3-7926-4029-B163-A36BCEB31A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976DFAE3-628B-4644-9D85-B939353DF1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976DFAE3-628B-4644-9D85-B939353DF1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976DFAE3-628B-4644-9D85-B939353DF1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976DFAE3-628B-4644-9D85-B939353DF1AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
